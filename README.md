@@ -28,3 +28,13 @@ Didasari oleh semangat untuk **melestarikan budaya Indonesia**. Dengan aplikasi 
 3. **Update App:** Tempelkan link tersebut ke komponen `Web1.Url` di proyek MIT App Inventor Anda.
 4. **Gunakan Aplikasi:** Buka aplikasi di HP, ketik nama suku (contoh: "Baduy" atau "Bali"), lalu tekan tombol cari.
 5. **Hasil:** Informasi deskripsi dan gambar akan muncul secara otomatis di layar kedua.
+
+
+## ⚙️ Konfigurasi Sebelum Menjalankan
+Untuk alasan keamanan, API Key tidak disertakan dalam kode ini. Silakan ikuti langkah berikut:
+
+1. Buat akun di [Serper.dev](https://serper.dev) untuk mendapatkan **API Key**.
+2. Buat akun di [Ngrok](https://dashboard.ngrok.com) untuk mendapatkan **Authtoken**.
+3. Buka file `server.py` dan masukkan kedua token tersebut pada variabel:
+   - `SERPER_API_KEY`
+   - `NGROK_TOKEN`
